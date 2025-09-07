@@ -1,0 +1,41 @@
+{
+  "name": "CampusGuard - Campus Safety App",
+  "short_name": "CampusGuard",
+  "description": "Comprehensive campus safety platform with emergency reporting and safe route planning",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "categories": ["safety", "education", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency Report",
+      "short_name": "Emergency",
+      "description": "Report an emergency incident",
+      "url": "/report?emergency=true",
+      "icons": [{ "src": "/icon-192.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Safe Routes",
+      "short_name": "Routes",
+      "description": "Find safe walking routes",
+      "url": "/routes",
+      "icons": [{ "src": "/icon-192.jpg", "sizes": "192x192" }]
+    }
+  ]
+}
