@@ -1,30 +1,43 @@
 # Codenection MMU
+Track: Campus Management Track
+Progressive Web Application (PWA)
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+# Functionalities of CampusGuard
+1. Campus Safety Dashboard (for Admin & Security Teams)
+- Real-time monitoring of emergency alerts triggered by students (from mobile app or web).
+- Heatmap of campus safety incidents (assaults, theft, accidents).
+- Live integration with CCTV or IoT sensors (if available).
+- Prioritization of alerts (red = urgent emergency, yellow = suspicious activity).
+- Role-based access (campus police, student affairs, faculty advisors).
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/wen-feis-projects/v0-codenection)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/3Ewna9MZRd8)
+2. Smart Reporting & Case Management System
+- Students can anonymously report suspicious behavior or unsafe conditions via web.
+- Security staff can track case progress (from "reported" → "investigated" → "resolved").
+- Analytics to identify recurring safety issues (e.g., poorly lit areas).
+- Automatic escalation workflows (urgent cases go directly to campus police).
 
-## Overview
+3. SafeRoute Planner
+- Web-based map that shows the safest walking routes across campus (based on lighting, crowd density, past incident history).
+- Integration with crowd-sourced student reports (“avoid this area, low lighting”).
+- Estimated time of arrival and live tracking for a "friend watch" feature.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+4. Emergency Resource Hub
+- Centralized portal with all safety-related resources:
+- Contact info for campus police, emergency hotlines, and health services.
+- Safety guides, first aid steps, and self-defense tutorials.
+- A chatbot for emergency FAQs (“What should I do if I feel followed?”).
 
-## Deployment
+5. Safety Buddy System (Web + Mobile Sync)
+- Students can register for a “safety buddy” before late-night study sessions.
+- Buddies get notified if the student doesn’t check in safely after a set time.
+- Web portal for campus authorities to monitor buddy check-in compliance.
 
-Your project is live at:
+6. Crowdsourced Incident Reporting Map
+- Students/staff can pin unsafe areas (e.g., “broken light pole,” “stray dogs,” “isolated alley”).
+- Color-coded heatmap of reported risks, updated in real time.
+- Admins can mark issues as resolved when fixed (like Waze for safety hazards).
 
-**[https://vercel.com/wen-feis-projects/v0-codenection](https://vercel.com/wen-feis-projects/v0-codenection)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/3Ewna9MZRd8](https://v0.app/chat/projects/3Ewna9MZRd8)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+7. AI-Powered Threat Detection Portal
+- Upload or stream suspicious activity (e.g., from student phones or campus CCTV).
+- AI model flags dangerous objects (weapons, fire, overcrowding).
+- Auto-notifies nearest responders with incident details.
